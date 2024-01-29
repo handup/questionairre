@@ -16,5 +16,11 @@ export type FormInput = {
     name: string,
     options: string[] | null,
     defaultValue: string | number,
-    cssClasses: string[]
+    // cssClasses: string[]
+}
+
+export type Questionnairre = {
+    questions: FormInput[],
+    title: string,
+    // theme: string
 }
